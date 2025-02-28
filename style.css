@@ -1,19 +1,106 @@
-/* Header Styling */
-header {
-    background-color: #B22222; /* Deep Red background */
-    color: white; /* White text */
-    text-align: center;
-    padding: 20px 0;
-}
-
-.logo h1 {
-    font-size: 3em; /* Larger font size for the title */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    width: 100%; /* Make sure it spans the entire header */
-    text-align: center;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-.logo p {
-    font-size: 1.2em; /* Slightly smaller text for the tagline */
-    margin-top: 10px;
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Header Section */
+header {
+    background-color: #B22222; /* Deep Red */
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header .logo h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+header .logo p {
+    font-size: 1.2em;
+}
+
+/* Main Content Section */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Featured Section */
+.featured {
+    flex: 70%;
+}
+
+.featured h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.article {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article h3 {
+    font-size: 1.5em;
+}
+
+.article .summary {
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Sidebar Section */
+.sidebar {
+    flex: 30%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    font-size: 1.5em;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #B22222; /* Deep Red */
+    font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+    background-color: #B22222; /* Deep Red */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
