@@ -1,6 +1,6 @@
 /* Header Styling */
 header {
-  background-color: #003366; /* Dark blue background */
+  background-color: #B22222; /* Deep Red background */
   color: white; /* White text */
   text-align: center;
   padding: 20px 0;
@@ -9,6 +9,8 @@ header {
 .logo h1 {
   font-size: 3em; /* Larger font size for the title */
   margin: 0;
+  width: 100%; /* Make sure it spans the entire header */
+  text-align: center;
 }
 
 .logo p {
