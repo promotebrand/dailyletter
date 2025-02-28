@@ -1,0 +1,17 @@
+/* Header Styling */
+header {
+  background-color: #003366; /* Dark blue background */
+  color: white; /* White text */
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo h1 {
+  font-size: 3em; /* Larger font size for the title */
+  margin: 0;
+}
+
+.logo p {
+  font-size: 1.2em; /* Slightly smaller text for the tagline */
+  margin-top: 10px;
+}
